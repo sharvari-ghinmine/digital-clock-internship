@@ -13,4 +13,5 @@ def time()
     string=strftime
 label=label(root, font=("ds-digital",80),background="black", foreground="cyan")
 label.pack(anchor='center')
-
+time()
+mainloop()
